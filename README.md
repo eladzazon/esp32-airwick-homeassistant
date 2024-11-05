@@ -15,4 +15,5 @@ Now I can toggle the automation at specific times, and I can set conditions to e
 ![esp32connections](esp32-airwick.png)
 
 ## Yaml
-Yaml code is [Here](esp32.yaml)
+- Esp32 Yaml code is [Here](esp32.yaml)
+- Automation Yaml code is [Here](automation.yaml)
