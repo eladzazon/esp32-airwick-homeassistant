@@ -12,6 +12,11 @@ I wanted to automate my Airwick sprayer and connect it to Home Assistant to make
 ## Smart Automation
 Now I can toggle the automation at specific times, and I can set conditions to ensure that either my wife or I are home; otherwise, the spray automation does not start.
 
+# Buy
+- Airwick from your closest supermarket
+- ESP32-WROOM https://s.click.aliexpress.com/e/_DnLCAnX
+- 3V Relay module https://s.click.aliexpress.com/e/_Dk7tKI9
+
 ## Scheme
 ![esp32connections](esp32-airwick.png)
 
