@@ -1,0 +1,49 @@
+alias: Esp32 Airwick Automation
+description: ""
+mode: single
+triggers:
+  - at: "07:00:00"
+    trigger: time
+  - at: "08:00:00"
+    trigger: time
+  - at: "11:00:00"
+    trigger: time
+  - at: "12:00:00"
+    trigger: time
+  - at: "13:30:00"
+    trigger: time
+  - at: "14:30:00"
+    trigger: time
+  - at: "15:00:00"
+    trigger: time
+  - at: "16:00:00"
+    trigger: time
+  - at: "17:00:00"
+    trigger: time
+  - at: "18:00:00"
+    trigger: time
+  - at: "18:30:00"
+    trigger: time
+  - at: "19:00:00"
+    trigger: time
+  - at: "19:30:00"
+    trigger: time
+  - at: "20:00:00"
+    trigger: time
+  - at: "21:00:00"
+    trigger: time
+conditions:
+  - condition: or
+    conditions:
+      - condition: state
+        entity_id: person.me
+        state: home
+      - condition: state
+        entity_id: person.my_wife
+        state: home
+actions:
+  - device_id: my_device_id
+    domain: button
+    entity_id: my_entity_id
+    type: press
+
